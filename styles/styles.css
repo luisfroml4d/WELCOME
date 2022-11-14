@@ -1,0 +1,94 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* background */
+.background {
+  position: absolute;
+  width: 1600px;
+  height: 768px;
+  left: 0px;
+  top: 0px;
+  background: #F3F4F6;
+
+}
+
+
+/* circle_small */
+.circle_small {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: 280px;
+  left: 64px;
+  background: #EF4444;
+  border-radius: 50%;
+}
+
+/* circle_big */
+.circle_big {
+  position: absolute;
+  width: 1196px;
+  height: 1196px;
+  left: 988px;
+  top: -598px;
+  background: #EF4444;
+  border-radius: 50%;
+}
+
+
+/* balloon */
+.balloon {
+  position: absolute;
+  width: 398px;
+  left: 64px;
+  top: 132px;
+}
+
+
+/* logo */
+.logo {
+  position: absolute;
+  width: 176px;
+  height: 35.92px;
+  left: 64px;
+  top: 47.89px;
+
+}
+
+/* title*/
+.title {
+  position: absolute;
+  margin-left: 36%;
+  width: 760px;
+  height: 192px;
+  top: 192px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  color: black;
+}
+
+/* description */
+.description {
+  position: absolute;
+  width: 505px;
+  height: 140px;
+  margin-left: 36%;
+  top: 448px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: black;
+} 
