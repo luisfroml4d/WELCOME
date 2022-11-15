@@ -9,20 +9,17 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* background */
-.background {
+
+.header_background {
   position: absolute;
   width: 1600px;
   height: 768px;
   left: 0px;
   top: 0px;
   background: #F3F4F6;
-
 }
 
-
-/* circle_small */
-.circle_small {
+.header_circle_small {
   position: absolute;
   width: 480px;
   height: 480px;
@@ -32,8 +29,7 @@
   border-radius: 50%;
 }
 
-/* circle_big */
-.circle_big {
+.header_circle_big {
   position: absolute;
   width: 1196px;
   height: 1196px;
@@ -43,8 +39,6 @@
   border-radius: 50%;
 }
 
-
-/* balloon */
 .balloon {
   position: absolute;
   width: 398px;
@@ -52,18 +46,14 @@
   top: 132px;
 }
 
-
-/* logo */
 .logo {
   position: absolute;
   width: 176px;
   height: 35.92px;
   left: 64px;
   top: 47.89px;
-
 }
 
-/* title*/
 .title {
   position: absolute;
   margin-left: 36%;
@@ -78,7 +68,6 @@
   color: black;
 }
 
-/* description */
 .description {
   position: absolute;
   width: 505px;
