@@ -17,6 +17,7 @@
   left: 0px;
   top: 0px;
   background: #F3F4F6;
+  overflow-x: hidden;
 }
 
 .header_circle_small {
@@ -54,12 +55,12 @@
   top: 47.89px;
 }
 
-.title {
+.header_title {
   position: absolute;
   margin-left: 36%;
-  width: 760px;
+  width: 768px;
   height: 192px;
-  top: 192px;
+  top: 122px;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 700;
@@ -68,11 +69,11 @@
   color: black;
 }
 
-.description {
+.header_description {
   position: absolute;
   width: 505px;
   height: 140px;
-  margin-left: 36%;
+  margin-left: 37%;
   top: 448px;
   font-family: 'Arial';
   font-style: normal;
