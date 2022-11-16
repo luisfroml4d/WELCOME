@@ -55,12 +55,19 @@
   top: 47.89px;
 }
 
-.header_title {
-  position: absolute;
-  margin-left: 36%;
+.header_container {
   width: 768px;
   height: 192px;
-  top: 122px;
+  top: 130px;
+  margin-left: 36.2%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+}
+
+.header_title {
   font-family: 'Arial';
   font-style: normal;
   font-weight: 700;
@@ -70,11 +77,9 @@
 }
 
 .header_description {
-  position: absolute;
-  width: 505px;
-  height: 140px;
-  margin-left: 37%;
-  top: 448px;
+  margin-left: -31%;
+  width: 500px;
+  height: 128px;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
