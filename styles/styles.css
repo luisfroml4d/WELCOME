@@ -131,3 +131,15 @@
   flex-wrap: wrap;
   justify-content:space-between;
 }
+
+.container__top {
+  width: 1144px;
+  height: 144px;
+  left: 228px;
+  margin-top: 272px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  position: absolute;
+}
