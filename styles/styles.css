@@ -20,7 +20,7 @@
   overflow-x: hidden;
 }
 
-.header_circle_small {
+.header_circle_size_small {
   position: absolute;
   width: 480px;
   height: 480px;
@@ -30,7 +30,7 @@
   border-radius: 50%;
 }
 
-.header_circle_big {
+.header_circle_size_big {
   position: absolute;
   width: 1196px;
   height: 1196px;
