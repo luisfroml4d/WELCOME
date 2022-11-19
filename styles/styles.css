@@ -88,3 +88,12 @@
   line-height: 32px;
   color: black;
 }
+
+.facts__background {
+  position: absolute;
+  width: 1600px;
+  height: 756px;
+  left: 0px;
+  top: 768px;
+  background: #FFFFFF;
+}
