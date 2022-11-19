@@ -167,3 +167,15 @@
   line-height: 24px;
   color: black;
 }
+
+.container__bottom {
+  width: 1144px;
+  height: 144px;
+  left: 228px;
+  margin-top: 464px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  position: absolute;
+}
