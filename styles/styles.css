@@ -113,3 +113,21 @@
   text-transform: uppercase;
   color: #EF4444;
 }
+
+.facts__title {
+  position: absolute;
+  width: 643px;
+  height: 72px;
+  left: 228px;
+  margin-top: 136px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
