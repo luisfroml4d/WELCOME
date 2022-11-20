@@ -1,0 +1,181 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+.header_background {
+  position: absolute;
+  width: 1600px;
+  height: 768px;
+  left: 0px;
+  top: 0px;
+  background: #F3F4F6;
+  overflow-x: hidden;
+}
+
+.header_circle {
+  background: #EF4444;
+  border-radius: 50%;
+}
+
+.header_circle_size_small {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: 280px;
+  left: 64px;
+}
+
+.header_circle_size_big {
+  position: absolute;
+  width: 1196px;
+  height: 1196px;
+  left: 988px;
+  top: -598px;
+}
+
+.balloon {
+  position: absolute;
+  width: 398px;
+  left: 64px;
+  top: 132px;
+}
+
+.logo {
+  position: absolute;
+  width: 176px;
+  height: 35.92px;
+  left: 64px;
+  top: 47.89px;
+}
+
+.header_container {
+  width: 768px;
+  height: 192px;
+  top: 130px;
+  margin-left: 36.2%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+}
+
+.header_title {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  color: black;
+}
+
+.header_description {
+  margin-left: -31%;
+  width: 500px;
+  height: 128px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: black;
+}
+
+.facts__background {
+  position: absolute;
+  width: 1600px;
+  height: 756px;
+  left: 0px;
+  top: 768px;
+  background: #FFFFFF;
+}
+
+.facts__subtitle {
+  position: absolute;
+  width: 300px;
+  height: 24px;
+  left: 232px;
+  margin-top: 100px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #EF4444;
+}
+
+.facts__title {
+  position: absolute;
+  width: 643px;
+  height: 72px;
+  left: 228px;
+  margin-top: 136px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.container__top {
+  width: 1144px;
+  height: 144px;
+  left: 228px;
+  margin-top: 272px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  position: absolute;
+}
+
+.text__container {
+  width: 250px;
+  height: 36px;
+  left: 228px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+}
+
+.subtext__container {
+  width: 250px;
+  height: 72px;
+  left: 228px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+.container__bottom {
+  width: 1144px;
+  height: 144px;
+  left: 228px;
+  margin-top: 464px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  position: absolute;
+}
